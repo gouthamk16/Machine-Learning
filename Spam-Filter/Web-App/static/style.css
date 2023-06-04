@@ -1,0 +1,46 @@
+html {
+    min-height: 600px;
+    background-color: #E5DED3;
+    
+}
+
+body {
+    align-items: center;
+    font-family: Roboto;
+    color: #222222;
+    font-size: 1.125rem;
+}
+
+.cont {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+/* form, h2, h3 {
+    margin-left: 600px;
+    margin-right: 600px;
+} */ 
+
+input[type="text"] {
+    padding: 5px;
+    /*border: none;*/
+    border-radius: 5px;
+    border-color: #222222;
+}
+  
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-color: #222222;
+    border-radius: 5px;
+    cursor: pointer;
+}
